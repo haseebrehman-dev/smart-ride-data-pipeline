@@ -44,4 +44,8 @@ df = pd.DataFrame(data)
 file_name = "raw_indrive_rides.csv"
 df.to_csv(file_name, index=False)
 
+<<<<<<< HEAD
 print(f"Success! {len(df)} rides data '{"raw_indrive_rides.csv"}'  save successfully.")
+=======
+print(f"Success! {len(df)} rides data '{raw_indrive_rides.csv}'  save successfully.")
+>>>>>>> 3b29534db780e6b32bcea0cea3f2423a97de81e7
